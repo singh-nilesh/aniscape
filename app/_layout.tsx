@@ -2,6 +2,8 @@ import { SplashScreen,Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
 
+SplashScreen.preventAutoHideAsync(); // don't hide until assets are loaded
+
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
     "Poppins-Black": require("../assets/fonts/Poppins-Black.ttf"),
@@ -24,6 +26,7 @@ const RootLayout = () => {
 
   }, [fontsLoaded, error]);
 
+  if(!fontsLoaded && !error) return null; // Don't show anything
 
   
   return (

@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# AniScape 🎥🌟  
+Welcome to **AniScape**, your gateway to stunning AI-generated manga scenes presented as immersive short films. 
+AniScape is designed to deliver a unique and creative browsing experience, 
+allowing users to explore, enjoy, and share captivating anime-inspired shorts.  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 🌟 Features  
+- **AI-Generated Manga Shorts**: Watch high-quality, AI-rendered manga scenes in a short film format.  
+- **User-Friendly Interface**: Seamless navigation and intuitive controls for a smooth user experience.  
+- **Share and Explore**: Share your favorite manga shorts and connect with like-minded users.  
+
+---
+
+### Installation  
+1. You should have latest `node` module instated, `sudo apt install nodejs` 
+1. Clone Repository
+   ```bash
+   git clone https://github.com/singh-nilesh/aniscape.git
+   ```
 
 1. Install dependencies
-
    ```bash
    npm install
    ```
 
 2. Start the app
-
    ```bash
     npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
