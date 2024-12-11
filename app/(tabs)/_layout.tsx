@@ -1,4 +1,4 @@
-import { View, Text, Image, ImageSourcePropType } from 'react-native'
+import { View, Text, Image, ImageSourcePropType, ImageBackground } from 'react-native'
 import { Tabs, Redirect } from 'expo-router'
 import { icons } from '../../constants'
 import { TabActions } from '@react-navigation/native'
@@ -28,7 +28,15 @@ const TabIcon = ({ icon, color, name }: TabIconProps) => {
 const TabsLayout = () => {
   return (
     <>
-      <Tabs>
+      <Tabs screenOptions={{
+        tabBarActiveTintColor: '#5cc3e3',
+        tabBarStyle: {
+          backgroundColor:'#221d2c',
+          borderTopWidth: 1,
+          borderTopColor:'bf3e9d',
+          height: 55
+        }
+      }}>
 
         <Tabs.Screen name='home' options={{
           title: "Home",
