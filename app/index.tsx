@@ -1,9 +1,12 @@
 import { ScrollView, Image, Text, View } from "react-native";
 import "../global.css";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Link } from "expo-router";
 import { images } from "@/constants";
 import CustomButton from "@/components/CustomButton"
+import { StatusBar } from "expo-status-bar";
+import { Colors } from "react-native/Libraries/NewAppScreen";
+import { Router, Redirect, router } from "expo-router";
+
 
 export default function Index() {
   return (
@@ -46,11 +49,14 @@ export default function Index() {
 
           <CustomButton
             title = "Continue with Email"
-            handelPress={() => {}}
+            handlePress={() => router.push('/(auth)/signIn')}
             containerStyles="w-full mt-7"
           />
         </View>
       </ScrollView>
+
+      
+      <StatusBar backgroundColor={Colors.canvas} style="light"></StatusBar>
     </SafeAreaView>
   )
 }
